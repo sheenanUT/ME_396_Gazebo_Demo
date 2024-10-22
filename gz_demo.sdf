@@ -36,7 +36,7 @@
                 <collision name="I_collision">
                     <geometry> 
                         <mesh>
-                            <uri>file:///home/sheneman/py_gz/letters/Letter_I.stl</uri>
+                            <uri>file:///home/{USERNAME}/ME_396_Gazebo_Demo/letters/Letter_I.stl</uri>
                             <scale>0.01 0.01 0.01</scale>
                         </mesh>
                     </geometry>
@@ -44,7 +44,7 @@
                 <visual name="I_visual">
                     <geometry> 
                         <mesh>
-                            <uri>file:///home/sheneman/py_gz/letters/Letter_I.stl</uri>
+                            <uri>file:///home/{USERNAME}/ME_396_Gazebo_Demo/letters/Letter_I.stl</uri>
                             <scale>0.01 0.01 0.01</scale>
                         </mesh>
                     </geometry>
@@ -60,7 +60,7 @@
                 <collision name="A_collision">
                     <geometry> 
                         <mesh>
-                            <uri>file:///home/sheneman/py_gz/letters/Letter_A.stl</uri>
+                            <uri>file:///home/{USERNAME}/ME_396_Gazebo_Demo/letters/Letter_A.stl</uri>
                             <scale>0.01 0.01 0.01</scale>
                         </mesh>
                     </geometry>
@@ -68,7 +68,7 @@
                 <visual name="A_visual">
                     <geometry> 
                         <mesh>
-                            <uri>file:///home/sheneman/py_gz/letters/Letter_A.stl</uri>
+                            <uri>file:///home/{USERNAME}/ME_396_Gazebo_Demo/letters/Letter_A.stl</uri>
                             <scale>0.01 0.01 0.01</scale>
                         </mesh>
                     </geometry>
@@ -84,7 +84,7 @@
                 <collision name="M_collision">
                     <geometry> 
                         <mesh>
-                            <uri>file:///home/sheneman/py_gz/letters/Letter_M.stl</uri>
+                            <uri>file:///home/{USERNAME}/ME_396_Gazebo_Demo/letters/Letter_M.stl</uri>
                             <scale>0.01 0.01 0.01</scale>
                         </mesh>
                     </geometry>
@@ -92,7 +92,7 @@
                 <visual name="M_visual">
                     <geometry> 
                         <mesh>
-                            <uri>file:///home/sheneman/py_gz/letters/Letter_M.stl</uri>
+                            <uri>file:///home/{USERNAME}/ME_396_Gazebo_Demo/letters/Letter_M.stl</uri>
                             <scale>0.01 0.01 0.01</scale>
                         </mesh>
                     </geometry>
@@ -108,7 +108,7 @@
                 <collision name="G_collision">
                     <geometry> 
                         <mesh>
-                            <uri>file:///home/sheneman/py_gz/letters/Letter_G.stl</uri>
+                            <uri>file:///home/{USERNAME}/ME_396_Gazebo_Demo/letters/Letter_G.stl</uri>
                             <scale>0.01 0.01 0.01</scale>
                         </mesh>
                     </geometry>
@@ -116,7 +116,7 @@
                 <visual name="G_visual">
                     <geometry> 
                         <mesh>
-                            <uri>file:///home/sheneman/py_gz/letters/Letter_G.stl</uri>
+                            <uri>file:///home/{USERNAME}/ME_396_Gazebo_Demo/letters/Letter_G.stl</uri>
                             <scale>0.01 0.01 0.01</scale>
                         </mesh>
                     </geometry>
@@ -132,7 +132,7 @@
                 <collision name="R_collision">
                     <geometry> 
                         <mesh>
-                            <uri>file:///home/sheneman/py_gz/letters/Letter_R.stl</uri>
+                            <uri>file:///home/{USERNAME}/ME_396_Gazebo_Demo/letters/Letter_R.stl</uri>
                             <scale>0.01 0.01 0.01</scale>
                         </mesh>
                     </geometry>
@@ -140,7 +140,7 @@
                 <visual name="R_visual">
                     <geometry> 
                         <mesh>
-                            <uri>file:///home/sheneman/py_gz/letters/Letter_R.stl</uri>
+                            <uri>file:///home/{USERNAME}/ME_396_Gazebo_Demo/letters/Letter_R.stl</uri>
                             <scale>0.01 0.01 0.01</scale>
                         </mesh>
                     </geometry>
@@ -156,7 +156,7 @@
                 <collision name="O1_collision">
                     <geometry> 
                         <mesh>
-                            <uri>file:///home/sheneman/py_gz/letters/Letter_O.stl</uri>
+                            <uri>file:///home/{USERNAME}/ME_396_Gazebo_Demo/letters/Letter_O.stl</uri>
                             <scale>0.01 0.01 0.01</scale>
                         </mesh>
                     </geometry>
@@ -164,7 +164,7 @@
                 <visual name="O1_visual">
                     <geometry> 
                         <mesh>
-                            <uri>file:///home/sheneman/py_gz/letters/Letter_O.stl</uri>
+                            <uri>file:///home/{USERNAME}/ME_396_Gazebo_Demo/letters/Letter_O.stl</uri>
                             <scale>0.01 0.01 0.01</scale>
                         </mesh>
                     </geometry>
@@ -180,7 +180,7 @@
                 <collision name="O2_collision">
                     <geometry> 
                         <mesh>
-                            <uri>file:///home/sheneman/py_gz/letters/Letter_O.stl</uri>
+                            <uri>file:///home/{USERNAME}/ME_396_Gazebo_Demo/letters/Letter_O.stl</uri>
                             <scale>0.01 0.01 0.01</scale>
                         </mesh>
                     </geometry>
@@ -188,7 +188,7 @@
                 <visual name="O2_visual">
                     <geometry> 
                         <mesh>
-                            <uri>file:///home/sheneman/py_gz/letters/Letter_O.stl</uri>
+                            <uri>file:///home/{USERNAME}/ME_396_Gazebo_Demo/letters/Letter_O.stl</uri>
                             <scale>0.01 0.01 0.01</scale>
                         </mesh>
                     </geometry>
@@ -204,7 +204,7 @@
                 <collision name="T_collision">
                     <geometry> 
                         <mesh>
-                            <uri>file:///home/sheneman/py_gz/letters/Letter_T.stl</uri>
+                            <uri>file:///home/{USERNAME}/ME_396_Gazebo_Demo/letters/Letter_T.stl</uri>
                             <scale>0.01 0.01 0.01</scale>
                         </mesh>
                     </geometry>
@@ -212,7 +212,7 @@
                 <visual name="T_visual">
                     <geometry> 
                         <mesh>
-                            <uri>file:///home/sheneman/py_gz/letters/Letter_T.stl</uri>
+                            <uri>file:///home/{USERNAME}/ME_396_Gazebo_Demo/letters/Letter_T.stl</uri>
                             <scale>0.01 0.01 0.01</scale>
                         </mesh>
                     </geometry>
@@ -228,7 +228,7 @@
                 <collision name="exclamation_collision">
                     <geometry> 
                         <mesh>
-                            <uri>file:///home/sheneman/py_gz/letters/exclamation_mark.stl</uri>
+                            <uri>file:///home/{USERNAME}/ME_396_Gazebo_Demo/letters/exclamation_mark.stl</uri>
                             <scale>0.01 0.01 0.01</scale>
                         </mesh>
                     </geometry>
@@ -236,7 +236,7 @@
                 <visual name="exclamation_visual">
                     <geometry> 
                         <mesh>
-                            <uri>file:///home/sheneman/py_gz/letters/exclamation_mark.stl</uri>
+                            <uri>file:///home/{USERNAME}/ME_396_Gazebo_Demo/letters/exclamation_mark.stl</uri>
                             <scale>0.01 0.01 0.01</scale>
                         </mesh>
                     </geometry>
