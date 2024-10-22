@@ -1,0 +1,290 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+    <world name="gz_demo">
+        <model name="ground_plane">
+            <static>true</static>
+            <pose>0 0 0 -0.05 0.05 0</pose>
+            <link name="link">
+                <collision name="collision">
+                    <geometry>
+                        <plane>
+                        <normal>0 0 1</normal>
+                        <size>100 100</size>
+                        </plane>
+                    </geometry>
+                </collision>
+                <visual name="visual">
+                <geometry>
+                    <plane>
+                    <normal>0 0 1</normal>
+                    <size>100 100</size>
+                    </plane>
+                </geometry>
+                <material>
+                    <ambient>0.8 0.8 0.8 1</ambient>
+                    <diffuse>0.8 0.8 0.8 1</diffuse>
+                    <specular>0.8 0.8 0.8 1</specular>
+                </material>
+                </visual>
+                
+            </link>
+        </model>
+        <model name="I">
+            <pose>0 0 1 1.57 0 0</pose>
+            <link name="I_link">
+                <pose>0 0 0 0 0 0</pose>
+                <collision name="I_collision">
+                    <geometry> 
+                        <mesh>
+                            <uri>file:///home/sheneman/py_gz/letters/Letter_I.stl</uri>
+                            <scale>0.01 0.01 0.01</scale>
+                        </mesh>
+                    </geometry>
+                </collision>
+                <visual name="I_visual">
+                    <geometry> 
+                        <mesh>
+                            <uri>file:///home/sheneman/py_gz/letters/Letter_I.stl</uri>
+                            <scale>0.01 0.01 0.01</scale>
+                        </mesh>
+                    </geometry>
+                </visual>
+                <inertial>
+                    <pose>0.1 -0.2 0.05 0 0 0</pose>
+                </inertial>
+            </link>
+        </model>
+        <model name="A">
+            <pose>0.5 0 1 1.57 0 0</pose>
+            <link name="A_link">
+                <collision name="A_collision">
+                    <geometry> 
+                        <mesh>
+                            <uri>file:///home/sheneman/py_gz/letters/Letter_A.stl</uri>
+                            <scale>0.01 0.01 0.01</scale>
+                        </mesh>
+                    </geometry>
+                </collision>
+                <visual name="A_visual">
+                    <geometry> 
+                        <mesh>
+                            <uri>file:///home/sheneman/py_gz/letters/Letter_A.stl</uri>
+                            <scale>0.01 0.01 0.01</scale>
+                        </mesh>
+                    </geometry>
+                </visual>
+                <inertial>
+                    <pose>0.21 -0.2 0.05 0 0 0</pose>
+                </inertial>
+            </link>
+        </model>
+        <model name="M">
+            <pose>0.9 0 1 1.57 0 0</pose>
+            <link name="M_link">
+                <collision name="M_collision">
+                    <geometry> 
+                        <mesh>
+                            <uri>file:///home/sheneman/py_gz/letters/Letter_M.stl</uri>
+                            <scale>0.01 0.01 0.01</scale>
+                        </mesh>
+                    </geometry>
+                </collision>
+                <visual name="M_visual">
+                    <geometry> 
+                        <mesh>
+                            <uri>file:///home/sheneman/py_gz/letters/Letter_M.stl</uri>
+                            <scale>0.01 0.01 0.01</scale>
+                        </mesh>
+                    </geometry>
+                </visual>
+                <inertial>
+                    <pose>0.21 -0.2 0.05 0 0 0</pose>
+                </inertial>
+            </link>
+        </model>
+        <model name="G">
+            <pose> 1.6 0 1 1.57 0 0</pose>
+            <link name="G_link">
+                <collision name="G_collision">
+                    <geometry> 
+                        <mesh>
+                            <uri>file:///home/sheneman/py_gz/letters/Letter_G.stl</uri>
+                            <scale>0.01 0.01 0.01</scale>
+                        </mesh>
+                    </geometry>
+                </collision>
+                <visual name="G_visual">
+                    <geometry> 
+                        <mesh>
+                            <uri>file:///home/sheneman/py_gz/letters/Letter_G.stl</uri>
+                            <scale>0.01 0.01 0.01</scale>
+                        </mesh>
+                    </geometry>
+                </visual>
+                <inertial>
+                    <pose>0.21 -0.2 0.05 0 0 0</pose>
+                </inertial>
+            </link>
+        </model>
+        <model name="R">
+            <pose>2.0 0 1 1.57 0 0</pose>
+            <link name="R_link">
+                <collision name="R_collision">
+                    <geometry> 
+                        <mesh>
+                            <uri>file:///home/sheneman/py_gz/letters/Letter_R.stl</uri>
+                            <scale>0.01 0.01 0.01</scale>
+                        </mesh>
+                    </geometry>
+                </collision>
+                <visual name="R_visual">
+                    <geometry> 
+                        <mesh>
+                            <uri>file:///home/sheneman/py_gz/letters/Letter_R.stl</uri>
+                            <scale>0.01 0.01 0.01</scale>
+                        </mesh>
+                    </geometry>
+                </visual>
+                <inertial>
+                    <pose>0.21 -0.2 0.05 0 0 0</pose>
+                </inertial>
+            </link>
+        </model>
+        <model name="O1">
+            <pose>2.4 0 1 1.57 0 0</pose>
+            <link name="O1_link">
+                <collision name="O1_collision">
+                    <geometry> 
+                        <mesh>
+                            <uri>file:///home/sheneman/py_gz/letters/Letter_O.stl</uri>
+                            <scale>0.01 0.01 0.01</scale>
+                        </mesh>
+                    </geometry>
+                </collision>
+                <visual name="O1_visual">
+                    <geometry> 
+                        <mesh>
+                            <uri>file:///home/sheneman/py_gz/letters/Letter_O.stl</uri>
+                            <scale>0.01 0.01 0.01</scale>
+                        </mesh>
+                    </geometry>
+                </visual>
+                <inertial>
+                    <pose>0.22 -0.2 0.05 0 0 0</pose>
+                </inertial>
+            </link>
+        </model>
+        <model name="O2">
+            <pose>2.85 0 1 1.57 0 0</pose>
+            <link name="O2_link">
+                <collision name="O2_collision">
+                    <geometry> 
+                        <mesh>
+                            <uri>file:///home/sheneman/py_gz/letters/Letter_O.stl</uri>
+                            <scale>0.01 0.01 0.01</scale>
+                        </mesh>
+                    </geometry>
+                </collision>
+                <visual name="O2_visual">
+                    <geometry> 
+                        <mesh>
+                            <uri>file:///home/sheneman/py_gz/letters/Letter_O.stl</uri>
+                            <scale>0.01 0.01 0.01</scale>
+                        </mesh>
+                    </geometry>
+                </visual>
+                <inertial>
+                    <pose>0.22 -0.2 0.05 0 0 0</pose>
+                </inertial>
+            </link>
+        </model>
+        <model name="T">
+            <pose>3.3 0 1 1.57 0 0</pose>
+            <link name="T_link">
+                <collision name="T_collision">
+                    <geometry> 
+                        <mesh>
+                            <uri>file:///home/sheneman/py_gz/letters/Letter_T.stl</uri>
+                            <scale>0.01 0.01 0.01</scale>
+                        </mesh>
+                    </geometry>
+                </collision>
+                <visual name="T_visual">
+                    <geometry> 
+                        <mesh>
+                            <uri>file:///home/sheneman/py_gz/letters/Letter_T.stl</uri>
+                            <scale>0.01 0.01 0.01</scale>
+                        </mesh>
+                    </geometry>
+                </visual>
+                <inertial>
+                    <pose>0.21 -0.15 0.05 0 0 0</pose>
+                </inertial>
+            </link>
+        </model>
+        <model name="exclamation">
+            <pose>3.7 0 1 1.57 0 0</pose>
+            <link name="exclamation_link">
+                <collision name="exclamation_collision">
+                    <geometry> 
+                        <mesh>
+                            <uri>file:///home/sheneman/py_gz/letters/exclamation_mark.stl</uri>
+                            <scale>0.01 0.01 0.01</scale>
+                        </mesh>
+                    </geometry>
+                </collision>
+                <visual name="exclamation_visual">
+                    <geometry> 
+                        <mesh>
+                            <uri>file:///home/sheneman/py_gz/letters/exclamation_mark.stl</uri>
+                            <scale>0.01 0.01 0.01</scale>
+                        </mesh>
+                    </geometry>
+                </visual>
+                <inertial>
+                    <pose>0.1 -0.2 0.05 0 0 0</pose>
+                </inertial>
+            </link>
+        </model>
+        <model name="sphere">
+            <pose>-4 -5 5 0 0 0</pose>
+            <link name="sphere_link">
+                <collision name="sphere_collision">
+                    <geometry>
+                        <sphere>
+                            <radius>2</radius>
+                        </sphere>
+                    </geometry>
+                </collision>
+                <visual name="sphere-visual">
+                    <geometry>
+                        <sphere>
+                            <radius>2</radius>
+                        </sphere>
+                    </geometry>
+                    <material>
+                        <ambient>0.5 0.5 0.5 1.0</ambient>
+                        <diffuse>0.2 0.2 0.2 1.0</diffuse>
+                        <specular>0.5 0.5 0.5 1.0</specular>
+                    </material>
+                </visual>
+                <inertial>
+                    <mass>200</mass>
+                </inertial>
+            </link>
+        </model>
+        <light type="directional" name="front-right-light">
+            <cast_shadows>false</cast_shadows>
+            <pose>10 7.5 1.5 0 0 0</pose>
+            <diffuse>0.4 0.4 0.4 1</diffuse>
+            <specular>0.4 0.4 0.4 1</specular>
+            <attenuation>
+                <range>1000</range>
+                <constant>0.9</constant>
+                <linear>0.01</linear>
+                <quadratic>0.001</quadratic>
+            </attenuation>
+            <direction>0 0 0</direction>
+        </light>
+    </world>
+</sdf>
